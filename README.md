@@ -4,10 +4,10 @@ Un MCP server è un'applicazione che espone funzionalità specifiche, come l'acc
 ### 🛠️ Build Image
 > docker compose build
 
-### 🟢 Container UP
+### 🐳 Container UP
 > docker compose up -d
 
-### 🐳 Run cointainer bash
+### 🟢 Navigate APIs 
 > Open on your browser: http://localhost:8500
 
 ### 🛑 Container DOWN
