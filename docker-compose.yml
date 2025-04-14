@@ -1,0 +1,9 @@
+services:
+  mcp-server:
+    build: .
+    container_name: mcp-server
+    volumes:
+      - ./src:/app
+    working_dir: /app
+    ports:
+      - "8500:80"
